@@ -1,0 +1,147 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HelpDesk</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="le-tete-de-page">
+      <div class="logo">
+        <a href="index.html" >
+          <span class="logo-H">H </span>
+          <span class="text-titel">HelpDesk</span>
+        </a>
+      </div>
+
+      <nav>
+        <img src="☰.png" alt="cet la mune de page web"/>
+      </nav>
+    </header>
+
+    <main class="main-principale">
+      <section class="section-un">
+        <div>
+          <h2>Gestion des demandes</h2>
+          <p>Suivez et gérez les incidents informatiques.</p>
+        </div>
+
+        <div class="formulaire">
+          <div class="le-tete-formilaire">
+            <h4 class="text-titel">Créer une demande</h4>
+            <p>Décrivez votre problème informatique.</p>
+          </div>
+
+          <form>
+            <div class="div1">
+              <label for="titre">Titre du problème *</label>
+              <br />
+              <input
+                type="text"
+                id="titre"
+                placeholder="Connexion Wi-Fi instable"
+                required
+              />
+              <br />
+            </div>
+
+            <div class="div2">
+              <label for="categories">Catégorie *</label>
+              <br />
+              <select class="select" id="categories" required>
+                <option value="Réseau">Réseau</option>
+                <option value="Matériel">Matériel</option>
+                <option value="Logiciel">logiciel</option>
+              </select>
+              <br />
+            </div>
+
+            <div class="div3">
+              <label for="priorites">Priorité *</label>
+              <br />
+              <select class="select" id="priorites" required>
+                <option value="Basse">Basse</option>
+                <option value="Normale">Normale</option>
+                <option value="Haute">Haute</option>
+              </select>
+              <br />
+            </div>
+
+            <div class="div4">
+              <label for="descriptions">Description *</label>
+              <br />
+
+              <textarea
+                id="descriptions"
+                required
+                placeholder="Décrivez votre problème..."
+              >
+              </textarea>
+            </div>
+
+            <div class="btn-container">
+              <button type="button" class="btn">
+                ＋ Ajouter la demande
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section>
+        <div class="le-tete-deux-section">
+          <div>
+            <h3>Liste des demandes</h3>
+          </div>
+
+          <div>
+            <span class="items">3 demandes</span>
+          </div>
+        </div>
+
+        <div class="Cartes">
+          <div class="carte">
+            <!-- <span class="item-one">⌁</span> <span class="count">HD-001</span>
+            <p class="reatisabe">Connexion Wi-Fi instable</p>
+            <p>Le réseau se déconnecte régulièrement.</p>
+            <span class="item-one-r">Réseau</span>
+            <span class="item1">Haute</span>
+            <hr class="hr" />
+            <span class="modifier">✎ Modifier</span> <span class="supprimer">♜ Supprimer</span>
+          </div> -->
+
+          <!-- <div class="carte">
+            <span class="item-two">▣</span> <span class="count">HD-002</span>
+            <p class="reatisabe">Installation d’un logiciel</p>
+            <p>Installer un logiciel sur le poste..</p>
+            <span class="item-one-r">Logiciel</span>
+            <span class="item2">Normale</span>
+            <hr class="hr" />
+            <span>✎ Modifier</span> <span>♜ Supprimer</span>
+          </div> -->
+
+          <!-- <div class="carte">
+            <span class="item-tree">⌨</span> <span class="count">HD-003</span>
+            <p class="reatisabe">Clavier défectueux</p>
+            <p>Certaines touches ne fonctionnent plus.</p>
+            <span class="item-one-r">Matériel</span>
+            <span class="item3">Basse</span>
+            <hr class="hr" />
+            <span>✎ Modifier</span> <span>♜ Supprimer</span>
+          </div>
+        </div> -->
+      </section>
+    </main>
+  </body>
+</html>

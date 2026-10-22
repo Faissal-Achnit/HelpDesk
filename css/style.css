@@ -1,0 +1,410 @@
+:root {
+  --darkblue: #252F3E;
+  --lightred: #FFF0E8;
+  --sublightred: #BA6444;
+  --red: #CC626A;
+  --lightyellow: #FFF5DF;
+  --yellow: #A67A2B;
+  --lightgreen: #E8F6EE;
+  --lightgreen: #388867;
+  --grayboxbackground: #EDF0F4;
+  --graytext: #8A95A4;
+  --textcolor:#202A38;
+  --purplebackground:#F1EAF9;
+  --paragraph:#8792A1;
+}
+
+
+.hr {
+  background-color: #EDF0F3;
+}
+
+* {
+    padding: 0;
+     margin: 0;
+    box-sizing:border-box;
+    font-family: "Inter", sans-serif;    
+}
+
+.le-tete-de-page {
+    display: flex;
+    justify-content: space-between;
+     margin: 20px;
+     
+     
+}
+
+ a {
+    text-decoration: none;
+    
+}
+
+
+.logo-H {
+       background-color: var(--textcolor);
+       color: #FFFFFF;
+       width: 50px;
+       height: 50px;
+       padding: 8px;
+       margin-right: 10px;
+       border-radius: 9px;
+       font-size: 1.125rem;
+       font-weight: 700;
+      
+
+  }
+.text-titel {
+    font-size: 1.1875rem;
+    font-weight: 700;
+    color : var(--textcolor);
+
+}
+.main-principale {
+  background-color:  #f7f8fa;
+  line-height: 2;
+  padding-bottom: 30px;
+
+}
+
+
+
+h2 {
+    color: var(--textcolor);
+    font-size: 1.4375rem;
+    font-weight: 700;
+}
+p {
+    font-size: 0.6875rem;
+     font-weight: 400;
+     color:  var(--paragraph);
+}
+
+.section-un {
+  margin-left:  20px;
+  padding: 10px;
+
+}
+.formulaire {
+  background-color: #FFFFFF;
+  padding: 15px 10px 10px 10px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 14px;
+
+
+  
+}
+
+.le-tete-formilaire {
+  padding-bottom: 10px;
+
+}
+label {
+  color: #263441;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 100%;
+ 
+}
+input {
+   border-radius: 10px;
+   border: 1.5px solid #D5DADF;
+   height: 42px;
+   width: 100%;
+   margin: auto;
+  padding: 10px 0px 10px 10px;
+
+}
+.select {
+  border-radius: 10px;
+  border: 1.5px solid #D5DADF;
+   height: 42px;
+   margin: auto;
+   width: 100%;
+   padding: 10px 0px 10px 10px;
+   
+}
+textarea {
+   border-radius: 10px;
+   border: 1.5px solid #D5DADF;
+   height: 50px;
+   margin: auto;
+   width: 100%;
+   padding: 10px 0px 10px 10px;
+}
+.btn {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin: auto;
+  width: 100%;
+  background-color: #252F3E;
+  border-radius: 10px;
+  border: 1.5px solid #252F3E;
+  font-size: 12px;
+  font-weight: 700;
+  color: #FFFFFF;
+   cursor: pointer;
+}
+
+h3 {
+    font-size: 19px;
+    font-weight: 700;
+    color: #202A38;
+    
+}
+.items {
+  font-size: 10px;
+  font-weight: 700;
+  color: #5C697B;
+  background-color: #EBEFF4;
+  margin: auto;
+  border-radius: 10px;
+  padding: 3px 6px 3px 6px;
+
+ 
+
+}
+
+.le-tete-deux-section {
+  
+  display: flex;
+  justify-content: space-between;
+padding: 10px;
+  
+ 
+}
+
+.reatisabe {
+   font-size: 16px;
+   font-weight: 700;
+   color: #243143;
+   line-height: 100%;
+}
+
+.carte {
+  background-color: #FFFFFF;
+  padding: 15px 6px;
+  margin: auto;
+  line-height: 3;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 14px;
+   line-height: 4;
+   width: 100%;
+}
+.Cartes {
+  padding: 0 20px
+}
+
+.count {
+  font-size: 11px;
+  font-weight: 700;
+  color: #99A4B2;
+  margin-left: 70%;
+}
+.item-one {
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #EAF0F9;
+  color: #587397;
+  text-align: center;
+   margin: auto;
+  border-radius: 11px;
+  padding: 10px 10px 10px 10px;
+  
+   
+}
+
+.item-two {
+  font-size: 15px;
+  font-weight: 700;
+  background-color:  #F1EAF9;
+  color: #587397;
+  text-align: center;
+   margin: auto;
+  border-radius: 11px;
+  padding: 10px 10px 10px 10px;
+}
+
+.item-tree {
+  font-size: 11px;
+  font-weight: 700;
+  background-color:  #E9F5F1;
+  color: #587397;
+  text-align: center;
+   margin: auto;
+  border-radius: 11px;
+  padding: 10px 10px 10px 10px;
+}
+.item-one-r {
+  background-color: #F0F3F7;
+  font-weight: 700;
+  font-size: 10px;
+  color: #64748B;
+  padding: 4px 50px 4px 10px;
+  border-radius: 12px;
+  text-align: center;
+}
+.item1 {
+   background-color: #FFF0E8;
+  font-weight: 700;
+  font-size: 10px;
+  color: #BA6444;
+  padding: 4px 30px 4px 10px;
+  border-radius: 12px;
+  text-align: center;
+  
+}
+
+
+.item2 {
+   background-color: #FFF5DF;
+  font-weight: 700;
+  font-size: 10px;
+  color: #A67A2B;
+  padding: 4px 30px 4px 10px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.item3{
+    background-color: #E8F6EE;
+  font-weight: 700;
+  font-size: 8px;
+  color: #388867;
+  padding: 4px 30px 4px 8px;
+  border-radius: 12px;
+  text-align: center;
+
+}
+
+.modifier {
+   color: #617084;
+   font-size: 700;
+   font-size: 13px;
+   cursor: pointer;
+ 
+  
+
+
+}
+.supprimer {
+  color: #CC626A;
+  font-size: 11px;
+  font-weight: 700;
+  margin-left: 15px;
+  cursor: pointer;
+ 
+}
+
+.Cartes {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap : 10px;
+        margin: auto;
+        width: 100%;
+       }
+
+
+
+        .div1 {
+         grid-area: titre;
+        }
+        .div2 {
+         grid-area: categore;
+         
+        }
+        .div3 {
+         grid-area: parite;
+         
+        }
+        .div4{
+         grid-area: description;
+         
+        }
+        .btn-container {
+       grid-area: btn;
+
+     }
+@media screen and (min-width: 768px) {
+       form {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr; 
+        grid-template-areas: "titre categore"
+                             "parite description"
+                             ". btn";
+       }
+       .carte {
+        width: 100%;
+       }
+
+       .Cartes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap : 10px;
+        margin: auto;
+       }
+       h1 {
+          font-size: 26px;
+       }
+       p{
+        font-size: 14px;
+       }
+       .main-principale {
+        width: 100%;
+       }
+
+             
+        .btn {
+    
+           text-align: center;
+           width: 80%;
+            padding: 10px 20px 10px 10px;
+             border: 16px;
+             
+             margin-bottom: 1px;
+             float: right;
+          
+       }
+       .items{
+          margin-left: -600%;
+          position: relative;
+          top: 9px;
+          width: 100%;
+          font-weight: 700;
+          font-size: 11px;
+       }
+      
+
+
+}
+
+
+@media screen and (min-width: 1024px) {
+      
+     .Cartes {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      width: 100%;
+     }
+     .items {
+      margin-left: -800px;
+     }
+     form {
+    display: grid;
+    gap: 10px;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    grid-template-areas:
+        "titre titre categore parite"
+        "description description  description  description"
+        ". . . btn";
+}
+
+
+    }
