@@ -27,9 +27,17 @@ let indexModification = null;
 
 const cardContainer = document.querySelector(".Cartes");
 
+ const counteur = document.querySelector(".items")
+
 // Fonction afficher les cartes
 function AfficherDemandes() {
   cardContainer.textContent = "";
+
+  counteur.textContent = `${demandes.length} demandes`
+
+  if(demandes.length === 0) {
+  counteur.textContent = "Aucune demande n’est disponible actuellement ?"
+  }
 
   for (let i = 0; i < demandes.length; i++) {
     const carte = document.createElement("div");
@@ -149,3 +157,6 @@ clickAjouter.addEventListener("click", function (event) {
   event.preventDefault();
   ajoutesDemande();
 });
+
+
+
